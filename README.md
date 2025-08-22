@@ -1,0 +1,2 @@
+# bs-skillcheck
+Prosty skillcheck
