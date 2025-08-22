@@ -1,10 +1,9 @@
 # bs-skillcheck
 
-exports["bs-skillcheck"]:openSkillcheck(function(success)
-    if success then
-        print("udało się")
-    else
-        print("nie udało się")
-    end
+exports['bs-skillcheck']:openSkillcheck(3, 8000, function(success, data)
+ if success then
+     print("Udane!") 
+ else
+     print("Nie udane) 
+ end
 end)
-
